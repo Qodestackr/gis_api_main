@@ -1,0 +1,49 @@
+# Ignore Python byte code and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the virtual environment directory
+venv/
+env/
+
+# Ignore Django's static and media files
+static/
+media/
+
+# Ignore database files
+db.sqlite3
+*.db
+
+# Ignore log files
+*.log
+
+# Ignore development settings file
+settings/local.py
+
+# Ignore IDE or editor specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.pycharm
+*.idea
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore coverage report
+htmlcov/
+
+# Ignore migration files
+**/migrations/
+
+# Ignore secret and sensitive files
+*.env
+
+# Ignore GeoDjango spatial database files
+*.sqlite3
+*.spatialite
+*.gpkg
+
+api_schema.yml
