@@ -14,7 +14,7 @@ The following requirements must be met to successfully deploy the portfolio app:
 
 - Python 3: The app is developed using Python 3. Ensure you have a compatible Python version installed.
 
-## Installation
+## Installing requirements
 
 Follow these steps to install and set up the portfolio app:
 
@@ -104,3 +104,5 @@ To fully utilize Psycopg 3 and achieve PostGIS compatibility, ensure you install
 
 - TypeError: Cannot set CustomUser SpatialProxy (POINT) with value of type: <class 'dict'>
  A common error that can keep occuring if models are not built with clarity. It seems to get triggered on mutations or operations that involves write. While not complex to understand it reassured me of how python can still be able to determine which version of a module to load for models involving spatial geometry or normal RDBMS related work.
+
+ <!--I find debugging as a way to actually pause and learn-->
