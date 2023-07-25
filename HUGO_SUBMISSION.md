@@ -14,7 +14,9 @@ Hugo is an efficient tool for Content Management written in Go.
 
 ## Partial
 
-When building sites, we need to manage content. Tools lie Gatsby or Hugo are efficient at this, Especially SSG/ ISR(with Next.js and so on..). A tool like Hugo will manage content in a `content` folder. In this folder, we can have markdown files that contain texts to be displayed on the site. These markdown files are like pages of your website.
+When building sites, we need to manage content. Tools like Gatsby or Hugo are efficient at this, Especially SSG/ ISR(with Next.js and so on..). A tool like Hugo will manage content in a `content` folder. In this folder, we can have markdown files that contain texts to be displayed on the site. These markdown files are like pages of your website.
+
+<!-- How I see it: Hugo partials are like Gatsby components, providing reusable templates. Markdown rendering in Hugo works similar to Gatsby's Markdown rendering. Personally have used Gatsby and Nextjs(With MDX) -->
 
 ## Shortcodes
 Shortcodes in Hugo are simple placeholders that we can use in our content files to inject dynamic content or execute predefined functions. They are enclosed within curly braces `{{ }}` and are usually used to add dynamic elements, such as images, videos, or custom functionalities, to your content. Shortcodes can be created by the user or provided by Hugo themes.
