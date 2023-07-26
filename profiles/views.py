@@ -34,7 +34,7 @@ class CustomUserViewSet(viewsets.ModelViewSet):
 
     @action(detail=False, methods=['post'])
     def logout(self, request):
-        # For token-based authentication, simply remove the token from the client-side.
+        # For token-based authentication, I will simply remove the token from the client-side.
         # By doing so, the client will no longer send the token with API requests,
         # and the server will consider the user as unauthenticated.
         return Response({'message': 'User has been logged out successfully.'})
