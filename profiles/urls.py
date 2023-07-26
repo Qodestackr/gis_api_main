@@ -8,3 +8,4 @@ router.register(r'users', CustomUserViewSet)
 urlpatterns = [
     path('profile/', include(router.urls)),
 ]
+

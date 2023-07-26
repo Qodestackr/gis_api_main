@@ -47,8 +47,8 @@ INSTALLED_APPS = [
     'rest_framework_gis',
     
     'profiles',
-    # 'corsheaders',
-    # 'rest_framework.authtoken',
+    'corsheaders',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -60,6 +60,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'backend_api.urls'
